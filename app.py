@@ -7,7 +7,7 @@ import joblib
 import os
 
 
-location = "./" #path of model
+location = "/" #path of model
 fullpath = os.path.join(location, 'hdp_model.pkl')
 
 app = Flask(__name__)
